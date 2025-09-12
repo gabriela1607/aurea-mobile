@@ -45,7 +45,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            {/* Botão de contraste */}
+     
             <button
               onClick={toggleDarkMode}
               className="hidden md:flex w-10 h-10 bg-[#DEC8BC] dark:bg-[#B39889] rounded-full items-center justify-center shadow-md hover:scale-110 transition-transform duration-300"
@@ -58,7 +58,6 @@ const Header = () => {
               />
             </button>
 
-            {/* Menu mobile */}
             <div className="flex items-center gap-4 md:hidden">
               <button
                 onClick={toggleDarkMode}
